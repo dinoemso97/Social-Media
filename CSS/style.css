@@ -1,0 +1,15 @@
+#canvas {
+	width: 600px;
+	height: 400px;
+	border: 1px solid #aaa;
+	cursor: default;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	
+	width: 600px;
+}
