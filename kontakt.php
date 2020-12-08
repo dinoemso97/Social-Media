@@ -75,7 +75,7 @@ if(isset($_POST['submit'])) {
         $mejl->SMTPSecure = "tls"; 
 
         $mejl->Username = "emsodino07@gmail.com";
-        $mejl->Password = "softver12345";
+        $mejl->Password = "";
 
         $mejl->setFrom($email , $name);
         $mejl->addReplyTo("emsodino07@gmail.com" , "Dino");
